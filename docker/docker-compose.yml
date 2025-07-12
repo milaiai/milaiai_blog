@@ -1,0 +1,38 @@
+version: '2.3'
+services:
+  milaiai_blog:
+    image: milaiai_blog
+    container_name: milaiai_blog
+    build:
+        context: ..
+        dockerfile: docker/Dockerfile
+    # runtime: nvidia
+    stdin_open: true
+    tty: true
+    privileged: true
+    # network_mode: host
+    ports:
+        - 1313:1313
+    command:
+        - lxterminal
+        # - hugo serve --bind=0.0.0.0
+        # - xterm
+    environment:
+        - DISPLAY
+        - QT_X11_NO_MITSHM=1
+        - http_proxy=$http_proxy
+        - https_proxy=$https_proxy
+        - no_proxy=$no_proxy
+    devices:
+        - /dev/dri
+    volumes:
+        - /tmp/.X11-unix:/tmp/.X11-unix:rw
+        - ~/.Xauthority:/home/ubuntu/.Xauthority
+        - ..:/root/blog
+        # - ~/Tempt/.vim:/home/ubuntu/.vim
+        # - ~/.vscode:/home/ubuntu/.vscode
+        # - /usr/lib/nvidia-cuda-toolkit:/usr/lib/nvidia-cuda-toolkit
+        # - yubao_ubuntu20_cuda11:/root
+
+# volumes:
+#    blog_volume:

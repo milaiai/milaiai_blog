@@ -1,0 +1,9 @@
+[submodule "themes/Blonde"]
+	path = themes/Blonde
+	url = https://github.com/opera7133/Blonde.git
+[submodule "themes/clarity"]
+	path = themes/clarity
+	url = https://github.com/chipzoller/hugo-clarity.git
+[submodule "themes/tailroad"]
+	path = themes/tailroad
+	url = https://github.com/Sathishbs/tailroad.git
