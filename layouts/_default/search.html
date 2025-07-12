@@ -1,0 +1,20 @@
+<!-- https://discourse.gohugo.io/t/a-simple-and-realtime-local-search-of-hugo/39215 -->
+<div class="container-search">
+    <div id="data" style="display: none;">
+		<!-- 遍历所有的站点页面 -->
+        {{ range where .Site.Pages "Kind" "section" }}
+			{{ range .Pages}}
+				{{ .Title }}%%{{ .Permalink }}%%{{ .Date.Format "2006-01-02" }}%%{{ .Summary }}%%{{ .Content | plainify }}$$$
+			{{ end }}
+        {{ end }}
+    </div>
+
+	<!-- 搜索框 -->
+    <div id="search" align="center">
+        <span class="sc-icon">🔎 </span>
+        <input id="sc-input" oninput="search()" type="text" style="text-align: left; width:500px; height: 40px;" placeholder="here search search..." />        <div id="sc-res"></div>
+    </div>
+
+	<!-- 加载所需搜索脚本 -->
+    <script src="/js/search.js"></script>
+</div>

@@ -76,7 +76,7 @@ darkmode = "light"
     display = true
 
     # Order of widgets to display
-    widgets = ["search", "archive", "category", "tags", "recent"]
+    widgets = [ "tags", "category",  "archive", "recent", "search"]
 
 # If you're using Yandex.Metrica, you can enable this feature.
 #[params.analytics.yandexmetrica]
@@ -101,6 +101,12 @@ darkmode = "light"
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
     weight = 3
 
 [taxonomies]

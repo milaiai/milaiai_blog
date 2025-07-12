@@ -11,7 +11,7 @@ categories = [
 ]
 series = ["series_clip"]
 aliases = ["aliases_clip"]
-image = "image-20240831112921213.png"
+image = "img/cover.jpg"
 +++
 
 # Related Papers

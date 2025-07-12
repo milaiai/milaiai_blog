@@ -1,10 +1,10 @@
 ---
 title: "Contact"
-description: "Hugo, the world's fastest framework for building websites"
-date: 2019-02-28
+description: "About me"
 aliases: ["contact"]
-author: "Hugo Authors"
+author: "Yubao"
 ---
+
 
 <div class="content">
     <p class="mb-2">To contact us, please fill out the form below.</p>
