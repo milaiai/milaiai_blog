@@ -1,7 +1,7 @@
 +++
 author = "Yubao"
 title = "具身智能"
-date = "2025-07-7"
+date = "2025-07-07"
 description = "具身智能"
 tags = [
     "具身智能",

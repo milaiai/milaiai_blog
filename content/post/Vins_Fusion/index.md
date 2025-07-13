@@ -1,7 +1,7 @@
 +++
 author = "Yubao"
 title = "VINS FUSION"
-date = "2025-07-1"
+date = "2025-07-01"
 description = "VINS Fusion"
 draft = "false"
 image = "img/vins-fusion.jpg"

@@ -1,7 +1,7 @@
 +++
 author = "Yubao"
 title = "VLA"
-date = "2025-07-1"
+date = "2025-07-01"
 description = "VLA"
 tags = [
     "VLA",
