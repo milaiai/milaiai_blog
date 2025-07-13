@@ -5,6 +5,6 @@
                 placeholder="Search..." value="" name="q" aria-label="Search">
         </label>
         <input class="hidden" type="submit" value="Search">
-        <input type="hidden" name="sitesearch" value="{{ .Site.BaseURL }}" />
+        <input type="hidden" name="sitesearch" value='{{ "/" | relLangURL }}' />
     </form>
 </div>

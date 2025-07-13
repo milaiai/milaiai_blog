@@ -2,4 +2,6 @@ public
 .hugo_build.lock
 .Identifier
 *.Identifier
+themes
+themes/Blonde
 

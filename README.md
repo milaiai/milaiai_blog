@@ -40,7 +40,7 @@ hugo server --renderToDisk --disableFastRender -t Blonde
 
 hugo --gc -v -t Blonde
 
-hugo server --bind=0.0.0.0 --baseURL=http://www.milaiai.com --port=131313
+hugo server --bind=0.0.0.0 --baseURL=http://www.milaiai.com --port=1313
 ```
 
 - docer proxy

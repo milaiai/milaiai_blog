@@ -1,4 +1,4 @@
-baseURL = "https://www.milaiai.com"
+baseURL = "http://www.milaiai.com"
 title = "MILAI AI"
 author = "Yubao"
 languageCode = "en"
@@ -11,7 +11,7 @@ enableRobotsTXT = true
 hasCJKLanguage = true
 
 # If you're using Google Analytics, you can enable this feature.
-googleAnalytics = "UA-131527698-4"
+googleAnalytics = "G-RTVEDN0E3G"
 
 # Disqus Comment System
 disqusShortname = "milaiai"
