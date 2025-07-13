@@ -1,3 +1,17 @@
++++
+author = "Yubao"
+title = "MCL"
+date = "2025-07-11"
+description = "MCL"
+tags = [
+    "MCL",
+]
+categories = [
+    "SLAM",
+]
+image = "https://pic4.zhimg.com/v2-c397a9f9a01b4a68eb99f48a1c1c00f9_1440w.jpg"
++++
+
 # Introduction
 
       蒙特卡洛定位算法（Monte Carlo Localization, MCL）的公式推导涉及粒子滤波（Particle Filter）的数学基础。粒子滤波是一种基于递归贝叶斯估计的方法，用于对系统状态进行估计。其基本目标是根据传感器观测和运动模型来估计机器人的位置和姿态。
@@ -35,14 +49,15 @@ class Particle:
 
 - 信念分布近似
 
+
 $$
-P({x}_t^* \in X ) = \int_{{x} \in X} b_t({x}) d{x} \approx \sum_{i=0}^{N-1} w_t^{(i)} \delta({x}_t^{(i)} \in X)
+P(x_t^* \in X) = \int_{{x} \in X} b_t({x}) d{x} \approx \sum_{i=0}^{N-1} w_t^{(i)} \delta({x}_t^{(i)} \in X)
 $$
 
 - 权重计算
 
 $$
-L_j({x} | {z}_j) = \mathcal{N}\left[ {z} = {z}_j | {h}_j({x}), Q_j({x}) \right]
+L_j(x | {z}_j) = \mathcal{N}\left[ {z} = {z}_j | {h}_j({x}), Q_j({x}) \right]
 $$
 
 ```py
@@ -50,15 +65,16 @@ multivariate_normal(mean=particle_suggest_pos, cov=cov).pdf(obs_pos)
 ```
 
 $$
-Q_j({x}) = \begin{pmatrix} [\ell_j({x})\sigma_\ell]^2 & 0 \\ 0 & \sigma^2_\varphi \end{pmatrix}
+Q_j(x) = \begin{pmatrix} [\ell_j({x})\sigma_\ell]^2 & 0 \\ 0 & \sigma^2_\varphi \end{pmatrix}
+$$
+
+
+$$
+w_t^{(i)} = L_j (x_t^{(i)} | {z}_{j,t} ) \hat{w}_t^{(i)}
 $$
 
 $$
-w_t^{(i)} = L_j ({x}_t^{(i)} | {z}_{j,t} ) \hat{w}_t^{(i)}
-$$
-
-$$
-w_t^{(i)} = L_j ({x}_t^{(i)} | {z}_{j,t} ) \hat{w}_t^{(i)}
+w_t^{(i)} = L_j (x_t^{(i)} | {z}_{j,t} ) \hat{w}_t^{(i)}
 $$
 
 $\ell_j({x})$: x到landmark的距离

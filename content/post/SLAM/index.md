@@ -1,5 +1,17 @@
++++
+author = "Yubao"
+title = "SLAM"
+date = "2024-12-10"
+description = "SLAM"
+tags = [
+    "SLAM",
+]
+archives = ["2024/12"]
+draft = false
+image = "https://www.macnica.co.jp/business/maas/columns/localization-and-mapping.jpg"
++++
 
-
+# 研究机构
 
  美国卡耐基梅陇大学机器人研究所
 
@@ -330,7 +342,29 @@ Alexander Vakhitov（三星莫斯科 AI 中心）
 
 学习型线段：IEEE Access 2019 Learnable line segment descriptor for visual SLAM（代码：https://github.com/alexandervakhitov/lld-slam ）
 
+# Papers
+
+## MetaSLAM
+
+- [MetaSLAM](https://github.com/MetaSLAM)
+
+![](https://github.com/MetaSLAM/.github/raw/main/profile/img/frame.png)
+
+
+## BioSLAM
+
+[1] P. Yin, A. Abuduweili, S. Zhao, C. Liu, and S. Scherer,  BioSLAM: A Bio-inspired Lifelong Memory System for General Place Recognition,  Aug. 30, 2022, *arXiv*: arXiv:2208.14543. 
+
+- https://metaslam.github.io/
+
+![](image-20240830140756202.png)
+
+![](image-20240830140830451.png)
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=260849631&bvid=BV1pe411K7fw&cid=838815839&p=1&autoplay=0 scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height="480" ></iframe>
+
 
 # Refefences
                         
 - [CSDN-SLAM领域的优秀作者与实验室汇总](https://blog.csdn.net/m0_37874102/article/details/114365837)
+- [Slam tech](https://www.slamtec.com/cn/Support#rplidar-mapper)

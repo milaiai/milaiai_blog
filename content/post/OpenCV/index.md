@@ -2,11 +2,11 @@
 author: "yubao"
 title: "OpenCV Usage"
 image: "img/cover.jpg"
-draft: false
-date: 2021-12-14
+draft: true
+date: 2024-12-14
 description: "OpenCV"
 tags: ["OpenCV"]
-archives: ["2021/12"]
+archives: ["2024/12"]
 ---
 
 # CMake Usage

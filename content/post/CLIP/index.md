@@ -1,7 +1,7 @@
 +++
 author = "Yubao"
 title = "CLIP"
-date = "2024-08-31"
+date = "2026-08-31"
 description = "clip"
 tags = [
     "clip",
@@ -9,9 +9,7 @@ tags = [
 categories = [
     "clip",
 ]
-series = ["series_clip"]
-aliases = ["aliases_clip"]
-image = "img/cover.jpg"
+image = "https://github.com/openai/CLIP/blob/main/CLIP.png"
 +++
 
 # Related Papers
@@ -28,7 +26,7 @@ image = "img/cover.jpg"
 
 - 图像分类器
 
-![](https://i-blog.csdnimg.cn/blog_migrate/fa475eaff5d2055c81cf703725971e6c.png#pic_center)
+![](./1752335950809-0.png)
 
 ## 2022 VQGAN-CLIP
 

@@ -1,12 +1,12 @@
 ---
 author: "yubao"
 title: "Nvidia-cuda"
-image: "img/cover.jpg"
+image: "https://miro.medium.com/v2/resize:fit:640/format:webp/1*Z_vXwV0SPudOAdlZnoAkWA.png"
 draft: false
-date: 2020-08-14
+date: 2025-07-01
 description: "Nvidia-cuda"
 tags: ["Nvidia"]
-archives: ["2020/08"]
+archives: ["2025/07"]
 ---
 
 # Cuda

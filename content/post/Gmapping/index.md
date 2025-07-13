@@ -1,5 +1,15 @@
-
-
++++
+author = "Yubao"
+title = "GMAPPING"
+date = "2025-03-10"
+description = "GMAPPING"
+image = "https://vstoneofficial.github.io/lightrover_webdoc/img/gmapping_1.png"
+tags = [
+    "SLAM",
+]
+archives = ["2025/03"]
+draft = false
++++
 
 
 # Introduction
@@ -25,8 +35,6 @@ FastSLAM算法采用[粒子滤波](https://zhida.zhihu.com/search?content_id=146
 ![](https://pic4.zhimg.com/v2-54334a55337320b290ef84809acc0081_1440w.jpg)
 
 经过上面的公式推导，这里将机器人轨迹估计转化成一个增量估计的问题，用p(x1:t-1 | u1:t-1, z1:t-1) 表示**上一时刻的机器人轨迹**，用上一时刻的粒子群表示。每一个粒子都用**运动学模型**p(xt | xt-1, ut)进行状态传播，这样就得到每个粒子对应的**预测轨迹** 。对于每一个传播之后的粒子，用**观测模型**p(zt | xt)进行**权重计算**归一化处理，这样就得到该时刻的机器人轨迹。之后根据估计的轨迹以及观测数据进行**地图构建**。
-
-
 
 
 

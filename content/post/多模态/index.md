@@ -1,7 +1,7 @@
 +++
 author = "Yubao"
 title = "多模态"
-date = "2024-09-01"
+date = "2025-07-06"
 description = "多模态"
 tags = [
     "多模态",

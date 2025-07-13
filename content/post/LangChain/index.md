@@ -1,4 +1,3 @@
-
 +++
 author = "Yubao"
 title = "LangChain"
@@ -10,9 +9,7 @@ tags = [
 categories = [
     "LangChain",
 ]
-series = ["series_langchain"]
-aliases = ["aliases_langchain"]
-image = "image-20240830144340168.png"
+image = "https://github.com/langchain-ai/langchain/raw/master/docs/static/img/logo-dark.svg"
 +++
 
 

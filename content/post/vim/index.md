@@ -1,14 +1,14 @@
 +++
 author = "Yubao"
 title = "VIM"
-date = "2019-03-10"
+date = "2024-03-10"
 description = "VIM"
 image = "img/cover.jpg"
 tags = [
 "VIM",
 ]
-archives = ["2019/03"]
-
+archives = ["2024/03"]
+draft = true
 +++
 
 # Copy and Paste

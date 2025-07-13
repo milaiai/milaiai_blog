@@ -1,13 +1,13 @@
 +++
 author = "Yubao"
 title = "运动方程"
-date = "2019-03-10"
+date = "2025-07-10"
 description = "运动方程"
-image = "img/cover.jpg"
+image = "https://cdn.jsdelivr.net/gh/yubaoliu/assets@image/robot_moving_demo_ch_3_2_4.gif"
 tags = [
-    "Robotics",
+    "Robotics","SLAM",
 ]
-archives = ["2019/03"]
+archives = ["2025/07"]
 +++
 
 
@@ -24,12 +24,9 @@ archives = ["2019/03"]
 
 ![robot motion1](https://github.com/ryuichiueda/LNPR_SLIDES/raw/master/old_version/figs/robot_motion1.png)
 
-(Refered From: https://github.com/ryuichiueda/LNPR_SLIDES/blob/master/old_version/figs/robot_motion1.png)
 
----
 
 ![robot motion2](https://github.com/ryuichiueda/LNPR_SLIDES/raw/master/old_version/figs/robot_motion2.png)
-(Refered From: https://github.com/ryuichiueda/LNPR_SLIDES/raw/master/old_version/figs/robot_motion2.png)
 
 # 相关变量
 - 速度:   $nv [m/s]$

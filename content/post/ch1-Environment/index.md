@@ -1,13 +1,13 @@
 +++
 author = "Yubao"
 title = "机器人开发环境介绍"
-date = "2019-03-10"
+date = "2025-07-10"
 description = "机器人开发环境介绍"
 image =  "img/robot-world-coordinate.png"
 tags = [
-    "Robotics",
+    "Robotics","SLAM",
 ]
-archives = ["2019/03"]
+archives = ["2025/07"]
 
 +++
 

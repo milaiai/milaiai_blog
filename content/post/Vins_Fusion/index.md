@@ -1,14 +1,14 @@
 +++
 author = "Yubao"
 title = "VINS FUSION"
-date = "2022-04-16"
+date = "2025-07-1"
 description = "VINS Fusion"
 draft = "false"
 image = "img/vins-fusion.jpg"
 tags = [
     "VIO",
 ]
-archives = ["2022/04"]
+archives = ["2025/01"]
 
 +++
 

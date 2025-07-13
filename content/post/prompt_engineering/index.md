@@ -4,13 +4,11 @@ title = "Promt Engineering"
 date = "2024-08-31"
 description = "Promt Engineering"
 tags = [
-    "机器人",
+    "AI",
 ]
 categories = [
-    "机器人",
+    "AI",
 ]
-series = ["series_robotics"]
-aliases = ["aliases_robotics"]
 draft = true
 +++
 

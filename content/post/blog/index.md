@@ -22,6 +22,26 @@ archives: ["2024/01"]
 - [A simple and realtime local search of hugo 实现简单且实时的本地搜索](https://discourse.gohugo.io/t/a-simple-and-realtime-local-search-of-hugo/39215/1)
 
 
-# Hugo SLACK theme
+## Hugo SLACK theme
 
 - https://stack.jimmycai.com/
+
+## Math
+
+```txt
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js' type='text/javascript'>    
+    MathJax.Hub.Config({
+        HTML: ["input/TeX","output/HTML-CSS"],
+        TeX: { extensions: ["AMSmath.js","AMSsymbols.js"],
+               equationNumbers: { autoNumber: "AMS" } },
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX","output/HTML-CSS"],
+        tex2jax: { inlineMath: [ ['$','$'] ],
+                   displayMath: [ ['$$','$$']  ],
+                   processEscapes: true
+                  },
+        "HTML-CSS": { availableFonts: ["TeX"],
+                      linebreaks: { automatic: true } }
+    });
+    </script>
+```

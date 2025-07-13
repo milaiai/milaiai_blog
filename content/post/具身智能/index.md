@@ -1,7 +1,7 @@
 +++
 author = "Yubao"
 title = "具身智能"
-date = "2024-08-31"
+date = "2025-07-7"
 description = "具身智能"
 tags = [
     "具身智能",
@@ -10,9 +10,7 @@ tags = [
 categories = [
     "Robotics",
 ]
-series = ["series_robotics"]
-aliases = ["aliases_robotics"]
-image = "image-20240830110542547.png"
+image = "https://assets.st-note.com/production/uploads/images/179529232/rectangle_large_type_2_d6ee1a0360e2edd3b6b68afe2056ded4.png?width=1200"
 +++
 
 # Introduction

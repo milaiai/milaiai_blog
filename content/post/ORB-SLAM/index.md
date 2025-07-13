@@ -1,14 +1,17 @@
 +++
 author = "Yubao"
 title = "ORB_SLAM3"
-date = "2019-03-10"
+date = "2024-12-10"
 description = "ORB_SLAM3"
-image = "img/cover.jpg"
+image = "https://camo.githubusercontent.com/1b85904badac830a45287a07cc68d4473141c343248512c51ee77324ad91112a/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f48794c4e712d39384c526f2f302e6a7067"
 tags = [
-    "ORB_SLAM3",
+    "ORB_SLAM", "SLAM",
 ]
-archives = ["2021/12"]
-
+categories = [
+    "SLAM",
+]
+archives = ["2024/12"]
+draft = false
 +++
 
 # Get ORB_SLAM3

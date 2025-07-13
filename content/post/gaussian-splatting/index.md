@@ -2,7 +2,7 @@
 author: "Yubao"
 title: "gaussian_splatting"
 image: "img/cover.jpg"
-draft: false
+draft: true
 date: 2024-01-19
 description: "3D-gausssian"
 tags: ["3D-gaussian"]

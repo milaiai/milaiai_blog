@@ -1,13 +1,13 @@
 +++
 author = "Yubao"
 title = "Agent引擎的实现"
-date = "2019-03-10"
+date = "2025-07-10"
 description = "Agent引擎的实现"
-image = "img/cover.jpg"
+image = "https://cdn.jsdelivr.net/gh/yubaoliu/assets@image/robot_agent_demo.gif"
 tags = [
-    "Robotics",
+    "Robotics","SLAM",
 ]
-archives = ["2019/03"]
+archives = ["2025/07"]
 +++
 
 **Angent的实现**

@@ -1,9 +1,21 @@
++++
+author = "Yubao"
+title = "Nvidia Nano"
+date = "2025-07-04"
+description = "Nvidia Nano"
+draft = false
+image = "https://d29g4g2dyqv443.cloudfront.net/sites/default/files/akamai/embedded/images/jetsonNano/nvidia-jetson-nano-module-standing-2c50-d.jpg"
+tags = [
+    "Nvidia",
+]
+archives = ["2025/07"]
++++
+
 # 刷机
 
 - 硬件连接
   刷机之前，先使用跳线帽/跳线的两端分别连接Jetson Xavier NX开发板的第三个引脚FC_REC与第四个引脚GND（开发板进行短接后，通电会进入recovery模式），之后电源端口接入 19V 电源, Micro-usb 端口接入配套的 Micro USB 线连到ubuntu 系统的主机上。
   
-  ![](/home/yubao/images/2025-03-11-15-19-48-dd0e9a38b682cfc66972abb733593aea.jpg)
 
 - 安装sdkmanager
   https://developer.nvidia.com/sdk-manager

@@ -1,14 +1,14 @@
 +++
 author = "Yubao"
 title = "Docker Proxy Setting"
-date = "2021-01-10"
+date = "2024-01-10"
 description = "Docker Proxy Setting"
-image =  "img/robot-world-coordinate.png"
+image =  "https://blog.codewithdan.com/wp-content/uploads/2023/06/Docker-Logo-1024x576.png"
 tags = [
-"Docer",
+"Docker",
 ]
-archives = ["2021/01"]
-
+archives = ["2024/01"]
+draft = false
 +++
 
 # daemon

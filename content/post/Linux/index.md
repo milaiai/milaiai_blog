@@ -9,7 +9,7 @@ tags = [
     "Linux",
 ]
 archives = ["2022/03"]
-
+draft = true
 +++
 
 # 查看各文件大小

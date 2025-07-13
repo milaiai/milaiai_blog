@@ -9,8 +9,7 @@ tags = [
 categories = [
     "AI",
 ]
-series = ["series_ai"]
-aliases = ["aliases_ai"]
+draft = true
 +++
 
 # AI学习

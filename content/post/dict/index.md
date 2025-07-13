@@ -2,7 +2,7 @@
 author: "Yubao"
 title: "Dictionary"
 image: "img/cover.jpg"
-draft: false
+draft: true
 date: 2024-01-10
 description: "Dictionary"
 tags: ["dict"]

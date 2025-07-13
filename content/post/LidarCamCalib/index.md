@@ -1,8 +1,21 @@
-# 
++++
+author = "Yubao"
+title = "Lidar Cam Calibration"
+date = "2025-07-10"
+description = "Lang Chain"
+tags = [
+    "SLAM",
+]
+categories = [
+    "SLAM",
+]
+image = "https://github.com/Deephome/Awesome-LiDAR-Camera-Calibration/raw/main/projection.png"
++++
+
 
 # Introduction
 
-![lasercamcal](https://gitee.com/yubaoliu/CamLaserCalibraTool/raw/master/doc/lasercamcal.png)
+![lasercamcal](./1752378711997-0.png)
 
 # Prepare Camera and Lidar
 
@@ -109,7 +122,7 @@ roslaunch lasercamcal_ros kalibra_apriltag.launch  config_path:=/home/ubuntu/cat
  roslaunch lasercamcal_ros calibra_offline.launch config_path:=/home/ubuntu/catkin_ws/src/CamLaserCalibraTool/config/calibra_config_pinhole.yaml
 ```
 
-![detect](https://gitee.com/yubaoliu/CamLaserCalibraTool/raw/master/doc/detect.gif)
+![detect](./1752378711997-1.png)
 
 - Results
 

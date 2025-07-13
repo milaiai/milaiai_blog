@@ -1,13 +1,13 @@
 +++
 author = "Yubao"
 title = "绘制Landmark"
-date = "2019-03-10"
+date = "2025-07-10"
 description = "绘制Landmark"
-image = "img/cover.jpg"
+image = "https://cdn.jsdelivr.net/gh/yubaoliu/assets@image/ch3_3_1_landmark.gif"
 tags = [
-    "Robotics",
+    "Robotics","SLAM",
 ]
-archives = ["2019/03"]
+archives = ["2025/07"]
 +++
 
 绘制地图点

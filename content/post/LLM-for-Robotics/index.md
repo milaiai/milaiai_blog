@@ -1,19 +1,17 @@
 +++
 author = "Yubao"
 title = "LLM for Robotics"
-date = "2024-08-31"
+date = "2025-08-31"
 description = "LLM for Robotics"
 tags = [
     "LLM",
     "具身智能",
-    "机器人",
+    "Robotics",
 ]
 categories = [
-    "机器人",
+    "Robotics",
 ]
-series = ["series_robotics"]
-aliases = ["aliases_robotics"]
-image = "image-20240830093414702.png"
+image = "https://pica.zhimg.com/v2-65c3cde1b1c5ad687e7f3286e294a7cf_720w.jpg"
 +++
 
 # Introduction

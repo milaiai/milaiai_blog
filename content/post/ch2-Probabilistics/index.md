@@ -1,17 +1,16 @@
 +++
 author = "Yubao"
 title = "机器人概率基础"
-date = "2019-03-10"
+date = "2025-07-10"
 description = "机器人概率基础"
-image = "img/cover.jpg"
+image = "img/landmark_obs.jpg"
 toc = true
 tags = [
-    "Robotics",
+    "Robotics","SLAM",
 ]
-archives = ["2019/03"]
+archives = ["2025/07"]
 
 +++
-
 
 
 ![](https://github.com/ryuichiueda/LNPR_SLIDES/raw/39cbbb13e890b9dd0eecb09b5d4ec28f25aff61c/figs/sensor_experiment.jpg)

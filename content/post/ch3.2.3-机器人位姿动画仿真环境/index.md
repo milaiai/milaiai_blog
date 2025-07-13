@@ -1,13 +1,13 @@
 +++
 author = "Yubao"
 title = "用动画来绘制Robot仿真环境"
-date = "2019-03-10"
+date = "2025-07-10"
 description = "用动画来绘制Robot仿真环境"
-image  = "img/cover.jpg"
+image  = "https://cdn.jsdelivr.net/gh/yubaoliu/assets@image/robot_world_animation.gif"
 tags = [
-    "Robotics",
+    "Robotics","SLAM",
 ]
-archives = ["2019/03"]
+archives = ["2025/07"]
 +++
 
 # Objective

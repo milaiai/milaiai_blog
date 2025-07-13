@@ -5,10 +5,10 @@ date = "2019-03-10"
 description = "强化学习"
 image = "img/cover.jpg"
 tags = [
-    "ReinforcementLearning",
+    "DL",
 ]
 archives = ["2019/03"]
-
+draft = true
 +++
 
 

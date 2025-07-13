@@ -7,7 +7,7 @@ date: 2024-05-08
 description: "香港银行卡开户"
 tags: ["bank"]
 archives: ["2024/05"]
-draft: true
+draft: false
 ---
 
 # 香港银行卡开户

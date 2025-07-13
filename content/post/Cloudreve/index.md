@@ -1,20 +1,38 @@
 ---
 author: "Qingbao"
-title: "Cloudreve"
-image: "img/cover.jpg"
+title: "Cloudreve博客搭建"
+image: "https://raw.githubusercontent.com/cloudreve/frontend/master/public/static/img/logo192.png"
 draft: false
-date: 2025-07-12
+date: 2025-06-01
 description: "Cloudreve"
 tags: ["blog"]
-archives: ["2025/07"]
+archives: ["2025/06"]
 ---
 
-# Cloudereve
 
-- 配置: https://docs.cloudreve.org/zh/overview/quickstart
+# 使用Docker安装
 
-## 步骤
 
+- doccker compose: 
+
+https://github.com/cloudreve/cloudreve/blob/master/docker-compose.yml
+
+- build and run
+```sh
+docker-compose build
+docker-compose up
+```
+- WebDAV配置
+
+![](cloudreve_enable_webdav.png)
+
+- 设置docker反向代理与SSL证书
+
+![alt text](image.png)
+
+# Cloudereve 手动配置
+- 参考配置: https://docs.cloudreve.org/zh/overview/quickstart
+  
 - 启动
 
 ```sh
@@ -27,7 +45,7 @@ archives: ["2025/07"]
 
 - 设置域名
 
-- 设置SSL秘钥
+- 通过配置文件设置SSL秘钥（不推荐， 建议使用下面docker配置方式）
 
 ```sh
 ; SSL 相关
@@ -40,11 +58,6 @@ CertPath =/www/server/panel/vhost/cert/cloud.milaiai.com/fullchain.pem
 KeyPath =/www/server/panel/vhost/cert/cloud.milaiai.com/privkey.pem
 ```
 
-- WebDAV配置
-
-![Clip](https://i-blog.csdnimg.cn/blog_migrate/fa6e74ec217e76f7f65d2b4d2028d528.png)
-
-
 # Questions
 
 - 如果端口被占用
@@ -55,11 +68,10 @@ KeyPath =/www/server/panel/vhost/cert/cloud.milaiai.com/privkey.pem
 [Error]  2025-07-03 13:44:22 [/home/vsts/work/1/s/cmd/server.go:45] Failed to start server: failed to listen to ":5212": listen tcp :5212: bind: address already in use
 ```
 
-​	查看占用情况
+​查看占用情况
 
 ```sh
 > sudo netstat -tulpn|grep 5212
 tcp        0      0 0.0.0.0:5212            0.0.0.0:*               LISTEN      3065/docker-proxy
 tcp6       0      0 :::5212                 :::*                    LISTEN      3071/docker-proxy-
 ```
-

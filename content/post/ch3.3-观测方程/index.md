@@ -1,13 +1,13 @@
 +++
 author = "Yubao"
 title = "观测方程"
-date = "2019-03-10"
+date = "2025-07-10"
 description = "观测方程"
 image = "img/landmark_obs.jpg"
 tags = [
-    "Robotics",
+    "Robotics","SLAM",
 ]
-archives = ["2019/03"]
+archives = ["2025/07"]
 
 +++
 

@@ -1,15 +1,14 @@
 +++
 author = "Yubao"
 title = "NFS共享服务配置"
-date = "2022-04-05"
-description = "Git"
-draft = "false"
-image = "img/cover.jpg"
+date = "2025-07-05"
+description = "NFS"
+draft = false
+image = "https://blog.tinned-software.net/wp-content/uploads/linux_penguin_NFS.png"
 tags = [
-    "Tools",
+    "NFS",
 ]
-archives = ["2022/04"]
-
+archives = ["2025/07"]
 +++
 
 # 服务器

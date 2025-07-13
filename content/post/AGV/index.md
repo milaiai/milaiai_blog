@@ -1,3 +1,20 @@
+
++++
+author = "Yubao"
+title = "AGV机器人导航"
+date = "2024-08-31"
+description = "AGV机器人导航"
+tags = [
+    "Robotics","AGV",
+]
+categories = [
+    "Robotics",
+]
+draft = false
+image = "https://bluebotics.com/wp-content/uploads/2021/01/3-LaserTriangulation-Technology-withTitle-1-1024x635.png"
++++
+
+
 # Comany
 
 - [北京视频案例-途灵机器人](https://www.a-g-v.com/beijing_shipinanli/)

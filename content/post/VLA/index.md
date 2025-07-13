@@ -1,18 +1,15 @@
-
 +++
 author = "Yubao"
 title = "VLA"
-date = "2024-08-31"
+date = "2025-07-1"
 description = "VLA"
 tags = [
-    "vla",
+    "VLA",
 ]
 categories = [
-    "vla",
+    "VLA",
 ]
-series = ["series_vla"]
-aliases = ["aliases_vla"]
-image = "image-20240829093800528.png"
+image = "https://ai.access-company.com/wp-content/uploads/2025/04/Vision-Language-Action.png"
 +++
 
 # Introduction

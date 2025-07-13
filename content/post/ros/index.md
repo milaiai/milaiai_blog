@@ -1,14 +1,14 @@
 +++
 author = "Yubao"
-title = "ROS Installation"
-date = "2023-12-10"
+title = "ROS"
+date = "2024-12-10"
 description = "ROS Installation"
 image = "img/cover.jpg"
 tags = [
     "ROS",
 ]
-archives = ["2023/12"]
-
+archives = ["2024/12"]
+draft = true
 +++
 
 # Installation

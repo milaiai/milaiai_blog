@@ -1,14 +1,14 @@
 +++
 author = "Yubao"
 title = "机器人位姿描述"
-date = "2019-03-10"
+date = "2025-07-10"
 description = "机器人位姿描述"
-image = "img/cover.jpg"
+image = "https://github.com/ryuichiueda/LNPR_SLIDES/raw/master/figs/robot_vels.jpg"
 toc = true
 tags = [
-    "Robotics",
+    "Robotics","SLAM",
 ]
-archives = ["2019/03"]
+archives = ["2025/07"]
 +++
 
 # Objective

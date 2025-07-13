@@ -1,27 +1,27 @@
 +++
 author = "Yubao"
 title = "对比学习"
-date = "2024-08-31"
+date = "2025-07-12"
 description = "对比学习"
 tags = [
     "对比学习",
 ]
-image = "https://picx.zhimg.com/80/v2-6e9f3873fdfd465221d954fdfea225e9_720w.webp"
+image = "https://framerusercontent.com/images/CyT6g2GBN9rfNv0o4wOhSPTlwm4.jpeg"
 +++
 
 # Introduction
 
-<img src="https://i-blog.csdnimg.cn/blog_migrate/8a0d5cc4f9fa2e64bb9f5ed79cbe5602.png#pic_center" />
+![](1752336346835-0.png)
 
 对比学习是一种为机器学习模型**描述相似和不同事物的任务的方法**。它试图教机器区分相似和不同的事物。
 
 **对比学习框架**
 
-<img src="https://img2020.cnblogs.com/blog/1664108/202106/1664108-20210608012632185-1928591945.png" />
+<img src="1752336105205-0.png" />
 
-![](https://img2020.cnblogs.com/blog/1664108/202106/1664108-20210608012632185-1928591945.png)
+![](1752336280060-0.png)
 
-![](https://img2020.cnblogs.com/blog/1664108/202106/1664108-20210608100934577-1498638737.gif)
+![](1752336105205-1.png)
 
 
 - 对比学习不需要标签，自动就能学。
@@ -45,20 +45,20 @@ image = "https://picx.zhimg.com/80/v2-6e9f3873fdfd465221d954fdfea225e9_720w.webp
 
 **SimCLR Framework**
 
-![](https://picx.zhimg.com/80/v2-6e9f3873fdfd465221d954fdfea225e9_720w.webp)
+![](1752336280060-1.png)
 
 数据增强：可以是旋转、平移、加噪声、裁减、改变颜色等等。
 $x_i$: 是随机裁减之后的
 $x_j$: 改变颜色并平移
 两者均是由原始数据变换过来的，它们都是正样本。
 
-![](https://i-blog.csdnimg.cn/blog_migrate/8e35122f06a38076876152c0c1ba1335.png)
+![](1752336105205-3.png)
 
 下图可以得到两对正样本，四对负样本。
 
-![](https://minio.cvmart.net/cvmart-community/images/202206/30/0/v2-4b5192efc957934b6fcb3e742febeb6e_b.jpg)
+![](1752336105205-4.png)
 
-![](https://i-blog.csdnimg.cn/blog_migrate/eb8e9e9601067c4d4fcbdc7de9ddc1a6.jpeg#pic_center)
+![](1752336105205-5.png)
 
 
 ![](v2-5d3b80663abc2754be51b38afb56a64c_b.jpg)
@@ -67,7 +67,7 @@ $x_j$: 改变颜色并平移
 
 **损失函数**
 
-![](https://minio.cvmart.net/cvmart-community/images/202206/30/0/v2-831f06263b95637683f63685e15f98ab_b.jpg)
+![](1752336105205-6.png)
 
 ![](image-20240830171935186.png)
 
@@ -77,7 +77,7 @@ $\tau$: 是个小于1的数，除以小数，数值会放大
 
 **性能：**
 
-![](https://pic2.zhimg.com/80/v2-0757baebdfc748e47af5bda79721a0b3_720w.webp)
+![](1752336105205-7.png)
 
 ## SimCLRv2
 
@@ -119,3 +119,4 @@ $\tau$: 是个小于1的数，除以小数，数值会放大
 - [CSDN-ICML 2020对比学习论文解读](https://blog.csdn.net/qq_43827595/article/details/127218736)
 
 - [zhihu-SimCLR](https://zhuanlan.zhihu.com/p/197802321)
+

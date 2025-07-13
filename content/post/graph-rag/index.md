@@ -1,16 +1,15 @@
 +++
 author = "Yubao"
 title = "graphrag"
-date = "2024-08-31"
+date = "2025-07-10"
 description = "graphrag"
+image="https://microsoft.github.io/graphrag/img/GraphRag-Figure1.jpg"
 tags = [
-    "rag",
+    "RAG",
 ]
 categories = [
-    "rag",
+    "RAG",
 ]
-series = ["series_rag"]
-aliases = ["aliases_rag"]
 +++
 
 # Graphrag

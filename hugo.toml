@@ -18,7 +18,7 @@ disqusShortname = "milaiai"
 
 publishDir = "public"
 
-post_asset_folder = true
+# post_asset_folder = true
 
 [params]
 # Base color of the website.
@@ -58,7 +58,7 @@ darkmode = "light"
     thumbnail = true
 
     # Disable the "NO IMAGE" image.
-    noimage = true
+    # noimage = true
 
     # See the Tailwind CSS documentation to set it up.
     # Recommended settings are h-32 to h-48.
@@ -143,3 +143,4 @@ archive = "archives"
 
 [markup.goldmark.renderer]
   unsafe = true
+

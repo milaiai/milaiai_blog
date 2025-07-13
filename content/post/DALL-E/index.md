@@ -7,11 +7,10 @@ tags = [
     "DALL-E",
 ]
 categories = [
-    "DALL-E",
+    "AI",
 ]
-series = ["series_dalle"]
-aliases = ["aliases_dalle"]
-image = "image-20240831102841870.png"
+draft = false
+image = "https://images.ctfassets.net/kftzwdyauwt9/ed21faee-ce44-4d91-f5cc39941d47/bdd3983530857e93d205304e219e2d95/dall-e.jpg?w=1920&q=90&fm=webp"
 +++
 
 
@@ -30,8 +29,8 @@ image = "image-20240831102841870.png"
 
 
 
-![](https://i-blog.csdnimg.cn/blog_migrate/326252f572fd4a4c5e49daa8daa9713a.png)
+![](./1752369982560-0.png)
 
 
 
-![](https://i-blog.csdnimg.cn/blog_migrate/1a157f3f69a5d0509bd48c0cd5692ede.png)
+![](./1752369982560-1.png)
