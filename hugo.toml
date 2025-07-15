@@ -107,7 +107,25 @@ darkmode = "light"
     identifier = "search"
     name = "Search"
     url = "/search/"
-    weight = 3
+    weight = 4
+
+  [[menu.main]]
+    identifier = "Disclaimer"
+    name = "Disclaimer"
+    url = "/Disclaimer/"
+    weight = 5
+  
+  [[menu.main]]
+    identifier = "privacy"
+    name = "Privacy_Policy"
+    url = "/privacy/"
+    weight = 6
+
+  [[menu.main]]
+    identifier = "term"
+    name = "Terms_and_Conditions"
+    url = "/terms/"
+    weight = 7
 
 [taxonomies]
 category = "categories"

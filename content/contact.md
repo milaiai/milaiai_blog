@@ -5,8 +5,10 @@ aliases: ["contact"]
 author: "Yubao"
 ---
 
-
 <div class="content">
+    <p class="mb-2"> QQ Group: 1083835889 (For Robotics, SLAM, AI) </p>
+    <p class="mb-2"> Whats app: +1 570 362 6085 </p>
+    <p class="mb-2"> Email: yubao.liu.yl@gmail.com</p>
     <p class="mb-2">To contact us, please fill out the form below.</p>
     <form name=contact action="https://getform.io/f/4bc32c7d-2c91-4c4d-bacf-a8c1bccf1de9" method=post>
     <div class="mb-4">
